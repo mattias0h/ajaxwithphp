@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost", "root", "", "test");
+$con = mysqli_connect('localhost','root','','test');
 $name = $_POST['name'];
 $email = $_POST['email'];
 $pass = $_POST['pass'];
