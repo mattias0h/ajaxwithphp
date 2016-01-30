@@ -1,7 +1,10 @@
 $(document).ready(function() {
     $("#sub").click(function() {
         var user_name = $("#name").val();
-        $.get("test.php",{name:user_name},function(data){
+        var user_email = $("#email").val();
+        var user_pass = $("#pass").val();
+
+        $.post("test.php",{name:user_name,email:user_email,pass:user_pass},function(data){
             $("#result").html(data);
         });
     });
