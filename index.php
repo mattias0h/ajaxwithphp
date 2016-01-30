@@ -4,25 +4,9 @@
     <meta charset="UTF-8">
     <title>Ajax Tutorials</title>
     <script src="jquery-2.2.0.min.js"></script>
+    <script src="js/custom.js"></script>
     <link rel="stylesheet" href="css/style.css">
 
-    <style>
-        body {
-            padding: 0;
-            margin: 0;
-            font-family: Arial;
-        }
-
-        #box {
-            background-color: gray;
-            text-align: center;
-            padding: 10px;
-            color: white;
-            width: 500px;
-            height: 300px;
-            margin: 0 auto;
-        }
-    </style>
 </head>
 <body>
 
